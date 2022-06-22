@@ -1,6 +1,5 @@
 Node *getListAfterReverseOperation(Node *head, int n, int b[])
 {
-    // Write your code here.
     Node *dummy = new Node(0);
     dummy->next = head;
 
